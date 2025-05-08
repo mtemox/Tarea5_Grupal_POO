@@ -15,6 +15,7 @@ public class Descuento {
 
     public static int calcularDescuento(double precioOriginal, double porcentajeDescuento) {
         double descuento = precioOriginal * (porcentajeDescuento / 100.0);
+        System.out.println("El descuento es: " + descuento);
         return (int) descuento;
     }
 }
