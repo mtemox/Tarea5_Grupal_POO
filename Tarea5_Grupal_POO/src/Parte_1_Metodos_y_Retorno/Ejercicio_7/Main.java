@@ -6,10 +6,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca el precio base: ");
-        double precio_base = sc.nextInt();
+        float precio_base = sc.nextInt();
         System.out.println("Introduzca el descuento porcentual: ");
-        double descuento = sc.nextInt();
-        double precio_final = precio_base - (precio_base * descuento / 100);
-        System.out.println("El precio final es: " + precio_final + " ");
+        float descuento = sc.nextInt();
+
+        Total cliente = new Total();
+
+        cliente.calcularPrecioConDescuento(precio_base,descuento);
+        //double precio_final = precio_base - (precio_base * descuento / 100);
+        //System.out.println("El precio final es: " + precio_final + " ");
     }
 }
