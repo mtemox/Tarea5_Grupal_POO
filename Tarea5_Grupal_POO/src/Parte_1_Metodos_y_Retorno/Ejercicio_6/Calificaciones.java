@@ -1,6 +1,6 @@
 package Parte_1_Metodos_y_Retorno.Ejercicio_6;
 
-// creacion de la clase
+// creacion de la clase :)
 class Calificaciones{
     //Atributos
     public double calificaciones;
