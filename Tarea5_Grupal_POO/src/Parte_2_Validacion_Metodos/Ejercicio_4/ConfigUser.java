@@ -5,7 +5,7 @@ import java.util.Set;
 public class ConfigUser {
     private String idioma;
     private boolean notificaciones;
-    private static final Set<String> IDIOMAS_VALIDOS = Set.of("Español", "Inglés", "Francés");
+    private static final Set<String> IDIOMAS_VALIDOS = Set.of("Español", "Ingles", "Frances");
 
     public boolean setIdioma(String idioma) {
         if (!IDIOMAS_VALIDOS.contains(idioma)) return false;
