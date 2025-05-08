@@ -1,4 +1,4 @@
-package Parte_1_Metodos_y_Retorno.Ejercicio_2;
+package Parte_1_Metodos_y_Retorno.Ejercicio_3;
 
 public class Descuento {
 
